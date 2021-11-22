@@ -1,0 +1,80 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Mohave", sans-serif; }
+.navbar {
+    font-weight: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    background-color: #2c271bd0;
+}
+
+.navbar .nav-item {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.navbar .nav-link:hover {
+    border-bottom: 1px solid white;
+}
+
+#showcase {
+    background: url(../images/main.webp) bottom center/cover no-repeat;
+    min-height: 750px;
+    width: 100%;
+    position: relative;
+}
+#showcase h1 {
+    font-family: "Questrial", sans-serif;
+}
+#showcase #overlay {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+#showcase header {
+    z-index: 2;
+}
+#history p{
+    line-height: 2;
+}
+#prices h2{
+    font-size: x-large;
+}
+i{
+    font-size: 1em;
+    text-align: left;
+}
+
+@media (max-width: 1198px) {
+    #showcase h1{
+        font-size: 80px;
+    }
+    #showcase h3{
+        font-size: 25px;
+    }
+}
+@media (max-width: 990px) {
+    #showcase h1{
+        font-size: 65px;
+    }
+    #showcase h3{
+        font-size: 20px;
+    }
+
+}
+@media (max-width: 766px) {
+    #showcase h1{
+        font-size: 40px;
+    }
+    #showcase h3{
+        font-size: 20px;
+    }
+}
